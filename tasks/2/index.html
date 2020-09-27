@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Cybersec clinique design responsive websites for you">
+        <meta name="keywords" content="Cybersec clinique, Web design, responsive design">
+        <meta name="author" content="Diketso Setho">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <!--Tailwind CSS-->
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="output.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+        <title>CyberSec Clinique</title>
+    </head>
+
+    <body>
+        <!--<div class="container mx-auto">-->
+            <div class="flex justify-between items-center py-4 bg-black">
+                <div class="flex-shrink-0 ml-10 cursor-pointer">
+                  <img src="assets/img/logo-white.png" alt="CyberSec Clinique Logo" class="h-12">
+                </div>
+                <i class="fas fa-bars fa-2x visible md:invisible mr-10 md:mr-0 text-blue-200 cursor-pointer"></i>
+                <ul class="hidden md:flex overflow-x-hidden mr-10 font-semibold">
+                  <li class="mr-6 p-1 border-b-2 border-blue-200">
+                    <a class="text-blue-200 cursor-default" href="#Home">Home</a>
+                  </li>
+                  <li class="mr-6 p-1">
+                    <a class="text-white hover:text-blue-300" href="#about">About</a>
+                  </li>
+                  <li class="mr-6 p-1">
+                    <a class="text-white hover:text-blue-300" href="#gallery">Gellery</a>
+                  </li>
+                  <li class="mr-6 p-1">
+                    <a class="text-white hover:text-blue-300" href="#contact">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+           <!--Landing-->
+        <div class="py-20" id="Home" style="background: linear-gradient(90deg, #667eea 0%, #1c434d 100%)"
+>
+          <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-2 text-white">
+              Best IT for you
+            </h2>
+            <h3 class="text-2xl mb-8 text-gray-200">
+              We can take care of your IT, while you focus on business
+            </h3>
+
+            <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+              Contact Us
+            </button>
+          </div>
+        </div>
+        <!--About-->
+        <section class="container mx-auto px-6 p-10" id="about">
+          <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">
+            About Us
+          </h2>
+          <div class="flex items-center flex-wrap mb-20">
+            <div class="w-full md:w-1/2">
+              <h4 class="text-3xl text-gray-800 font-bold mb-3">Web Design</h4>
+              <p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nunc odio, posuere sit amet convallis a, gravida ut quam. Suspendisse varius pellentesque quam, eget rhoncus tortor accumsan nec. In aliquam.</p>
+            </div>
+            <div class="w-full md:w-1/2">
+              <img src="assets/img/world.svg" alt="World" />
+            </div>
+          </div>
+        </section>
+
+            <section>
+
+              <div class="mt-20 bg-blue-100 w-full p-5" id="gallery">
+                <div class="w-full h-12 rounded-t-lg flex items-center justify-center">
+                  <div>
+                      <h2 class="text-4xl font-bold text-center text-gray-800 mb-8">Gallery</h2>
+                  </div>	
+              </div>
+
+              <div class="w-full h-auto flex mx-auto mb-4 rounded-b-lg">
+                <div class="w-1/4 ml-6 ">
+                  <img class="rounded mb-2 m-2 h-64 w-64  " src="assets/img/diketso.jpg" alt="Diketso">
+                  <img class="rounded mb-2 m-2 h-64 w-64 " src="assets/img/web-design.jpg" alt="Cybersec">
+                </div>
+                <div class="w-1/4">
+                   <img class="rounded mb-2 m-2 h-64 w-64 " src="assets/img/web-design.jpg" alt="Cybersec">
+                   <img class="rounded mb-2 m-2 h-64  w-64" src="assets/img/diketso.jpg" alt="Diketso">
+                </div>
+                <div class="w-1/4">
+                   <img class="rounded mb-2 m-2 h-64 w-64 " src="assets/img/diketso.jpg" alt="Diketso">
+                   <img class="rounded mb-2 m-2 h-64 w-64" src="assets/img/web-design.jpg" alt="Cybersec">
+                </div>
+                <div class="w-1/4 -mr-3">
+                   <img class="rounded mb-2 m-2 h-64 w-64" src="assets/img/web-design.jpg" alt="Cybersec">
+                   <img class="rounded mb-2 m-2 h-64 w-64" src="assets/img/diketso.jpg" alt="Diketso">
+                </div>   
+            </section>
+
+            <section>
+              <div class="w-full bg-blue-900">
+                <div class="flex flex-wrap text-center text-white">
+          
+                  <!-- ABOUT COLUMN -->
+          
+                  <div class="w-full md:w-1/3 p-5 border-r border-blue-800 md:text-left">
+                    <div class="my-6 ml-3 text-xl font-semibold">ABOUT US</div>
+                    <p class="p-3 text-gray-400">A cuber security company with years of expirience and trusted in the field</p>
+                    <p class="p-3 text-gray-400">We have a dedicated team with years of expirience and qualified to take care of your security needs any time</p>
+                  </div>
+          
+                  <!-- CONTACTS COLUMN -->
+          
+                  <div class="w-full md:w-1/3 p-5 border-r border-blue-800" id="contact">
+                    <div class="my-6 text-xl font-semibold">CONTACT US</div>
+                    <p class="mt-8 text-gray-400">
+                      ****  <br>
+                      Commercia <br>
+                      Gauteng <br>
+                      <strong>Phone:</strong> +27 84 308 8893<br>
+                      <strong>Email:</strong> Diketso.setho16@gamil.com
+                    </p>
+                    <div class="relative w-20 h-20 mx-auto my-12 bg-blue-300 rotate-45">
+                      <div class="flex justify-center items-center absolute left-0 top-0 w-10 h-10 hover:-ml-1 hover:-mt-1 bg-blue-800 cursor-pointer">
+                        <i class="fab fa-facebook-f fa-lg text-blue-500 -rotate-45"></i>
+                      </div>
+                      <div class="flex justify-center items-center absolute top-0 right-0 w-10 h-10 hover:-mt-1 hover:-mr-1 bg-blue-800 cursor-pointer">
+                        <i class="fab fa-twitter fa-lg text-blue-500 -rotate-45"></i>
+                      </div>
+                      <div class="flex justify-center items-center absolute right-0 bottom-0 w-10 h-10 hover:-mr-1 hover:-mb-1 bg-blue-800 cursor-pointer">
+                        <i class="fab fa-google-plus-g fa-lg text-blue-500 -rotate-45"></i>
+                      </div>
+                      <div class="flex justify-center items-center absolute bottom-0 left-0 w-10 h-10 hover:-mb-1 hover:-ml-1 bg-blue-800 cursor-pointer">
+                        <i class="fab fa-linkedin-in fa-lg text-blue-500 -rotate-45"></i>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- FORM COLUMN -->
+          
+                  <div class="w-full md:w-1/3 p-5">
+                    <div class="mt-6 text-xl font-semibold">SAY HELLO!</div>
+                    <form class="w-4/5 mx-auto mt-2 px-6 pt-6 pb-4 rounded">
+                      <div class="flex items-center mb-4">
+                        <input class="w-full h-10 p-2 border-b border-blue-800 bg-blue-900 text-white" type="text" placeholder="Username">
+                      </div>
+                      <div class="flex items-center mb-4">
+                        <input class="w-full h-10 p-2 border-b border-blue-800 bg-blue-900 text-white" type="text" placeholder="Email">
+                      </div>
+                      <div class="mb-6">
+                        <textarea class="w-full h-24 px-2 pt-2 border-b-2 border-blue-800 bg-blue-900 text-white" placeholder="Message"></textarea>
+                      </div>
+                      <div class="flex justify-between items-center">
+                        <button class="w-full py-2 px-4 rounded bg-black hover:bg-blue-700 text-white font-bold" type="button">SEND</button>
+                      </div>
+                    </form>
+                  </div>
+          
+                </div>
+              </div>
+            </section>
+       <!-- </div> -->
+
+
+
+    </body>
+</html>
