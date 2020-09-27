@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Documentation page">
+  <meta name="keywords" content="Documentation, getting staeted, Cybersec clinique">
+  <meta name="author" content="Diketso Setho">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Linking Css-->
+  <link rel="stylesheet" href="style.css">
+  <title>Documentation - Cybersec Clinique</title>
+</head>
+
+<body>
+
+<div class="tab">
+  <a href="#"><img src="assets/img/logo-white.png" alt="logo"/></a>
+   <button class="menu" onclick="infofunc(event, 'intro')" id="active">Intro</button>
+   <button class="menu" onclick="infofunc(event, 'started')">Getting Started</button>
+   <button class="menu" onclick="infofunc(event, 'linking')">Linking</button>
+   <button class="menu" onclick="infofunc(event, 'deploy')">Deploy</button>
+</div>
+
+
+<div id="intro" class="description">
+   <h3>Introduction</h3>
+   <p>Introduction about the software.</p>
+</div>
+
+<div id="started" class="description">
+   <h3>Getting Started</h3>
+   <p>Getting Started with the products</p>
+</div>
+
+<div id="linking" class="description">
+  <h3>Linking</h3>
+  <p>NPM and CDN linkins are avaliable for the tool.</p>
+</div>
+
+<div id="deploy" class="description">
+  <h3>Deploy</h3>
+  <p>How to Live deploy your project.</p>
+</div>
+
+<!--Linking Js-->
+<script src="js.js"></script>
+
+</body>
+</html>
