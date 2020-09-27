@@ -15,8 +15,10 @@
  }
 
  .tab img{
-     max-width: 260px;
+     max-width: 100%;
+     max-height: 100%;
      padding: 10px 0;
+     margin: auto;
  }
  .tab button {
     display: block;
@@ -40,8 +42,8 @@
     color: white;
  }
  .description {
-    margin-left: 260px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 260px; 
+    font-size: 28px; 
     padding: 0px 10px;
  }
 
